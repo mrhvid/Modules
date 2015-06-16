@@ -17,6 +17,8 @@ Defaults to c:\Retry.txt.
 Get-Content names.txt | Get-MOLSystemInfo
 .EXAMPLE
 Get-MOLSystemInfo -ComputerName SERVER1,SERVER2
+.EXAMPLE
+Get-MOLSystemInfo -ComputerName SERVER1,Offline
 #>
     [CmdletBinding()]
     param(
